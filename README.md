@@ -1,2 +1,1 @@
-# FurnX-Static-Prototype-Website
-My first static website mockup!
+TinDog Starting Files

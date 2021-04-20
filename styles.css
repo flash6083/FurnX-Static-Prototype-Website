@@ -1,0 +1,172 @@
+html{
+  scroll-behavior: smooth;
+  cursor: url("https://img.icons8.com/plasticine/30/000000/filled-circle.png"),auto;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  animation: transitionIn 0.75s ease-in-out;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+p{
+  color: #8f8f8f;
+}
+a{
+  color: #ffc107;
+}
+#title{
+  background-color: #0B9869;
+  color: #fff;
+}
+#features{
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+#testimonials{
+  text-align: center;
+  background-color: #0DBF84;
+  color: #efff;
+}
+#press{
+  background-color: #0DBF84;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing{
+  padding: 50px 100px 100px 100px;
+  text-align: center;
+}
+#cta{
+  background-color: #0B9869;
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.ml12{
+  color: #0B9869;
+  -webkit-text-stroke : 0.1vw #F2DC5D;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  font-family: 'Poppins' sans-serif;
+}
+.hero_title{
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0 3rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+  filter: drop-shadow(2px 5px 10px #4E5656);
+}
+.title-image{
+  width: 60%;
+  position: absolute;
+  right: 10%;
+}
+.feature-box{
+  text-align: center;
+  padding: 2%;
+}
+.icon{
+  color: #e8c51a;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #d6b012;
+}
+.testimonial-image{
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+  margin-top: 30px;
+}
+.test-text{
+  font-weight: 700;
+  font-size: 2rem;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 15px;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-plan{
+  color: #d6b012;
+}
+.card{
+  filter: drop-shadow(5px 10px 10px #EAECEC);
+}
+.cta-phrase{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+
+}
+.ml2{
+  color: #F2DC5D
+}
+.social-icons{
+  margin: 20px 10px;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+@keyframes transitionIn {
+  from{
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+  }
+
+}
